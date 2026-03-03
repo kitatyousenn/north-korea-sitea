@@ -1,0 +1,50 @@
+ body{
+    background-image: url(https://s.japanese.joins.com/upload/images/2019/06/20190617103745-1.jpg);
+}
+.text{
+    color:rgb(0, 217, 255);
+}
+img{
+width: 450px;
+height: 300px;
+}
+body{
+    text-align: center;
+}
+body{
+    margin: auto;
+}
+body{
+    font-family: fantasy;
+}
+.mosaic-background {
+    position: relative;
+    width: 400px;
+    height: 300px;
+    overflow: hidden;
+    color: white;
+    font-size: 24px;
+  }
+  body {
+    position: relative;
+    margin: 0;
+    min-height: 100vh;
+    overflow-x: hidden;
+    font-family: "fantasy", cursive, sans-serif; /* 参考にフォントも設定 */
+    color: #fff; /* テキストが見やすい色に */
+    background: none; /* 直接背景画像は設定しない */
+  }
+  
+  body::before {
+    content: "";
+    position: fixed;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background-image: url(https://s.japanese.joins.com/upload/images/2019/06/20190617103745-1.jpg);
+    background-size: cover;
+    background-position: center;
+    filter: blur(8px); /* ぼかしの強さ */
+    z-index: -1;
+    opacity: 0.7; /* 好みで背景の透明度を調整 */
+  }
+  
+ 
